@@ -1,0 +1,19 @@
+{
+  "name": "new-pr-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "trace": "playwright show-trace trace.zip",
+    "codegen": "playwright codegen kantega.no",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.20.1"
+  }
+}
