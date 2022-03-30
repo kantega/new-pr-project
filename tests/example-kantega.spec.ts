@@ -2,7 +2,7 @@ import { test, expect, Page } from '@playwright/test';
 
 
 test.describe('Kantega is the best company', () => {
-  test.only('should be found by Google as first hit', async ({ page }) => {
+  test('should be found by Google as first hit', async ({ page }) => {
     await page.goto("https://www.google.com/");
 
     // Click button:has-text("I agree")
